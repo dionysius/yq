@@ -1,12 +1,12 @@
 # yq
 
-Another portable wrapper to jq. Written in Go and aims to be used exactly like jq, just that the input and output document is YAML.
+Another portable wrapper to jq. Written in Go and aims to be used exactly like jq, just that the input and output document is YAML. There are a [several other options](https://github.com/stedolan/jq/issues/467), but haven't found one which is a simple binary *and* is just like jq.
 
 Forwards stdin (after translating to JSON) and arguments (where applicable) directly to jq. Forwards jq output (after translating to YAML) directly to stdout. jq errors are directly written to stderr.
 
 So, just use it as you would use jq, no gimmicks. You need to have jq installed and available within your `$PATH`.
 
-What features are supported in YAML? Everything what [gopkg.in/yaml.v3](https://github.com/go-yaml/yaml/tree/v3#compatibility) offers.
+For YAML all features what [gopkg.in/yaml.v3](https://github.com/go-yaml/yaml/tree/v3#compatibility) offers are supported.
 
 ## Installation
 
