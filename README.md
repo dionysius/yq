@@ -27,7 +27,7 @@ Usage: jq [options] <jq filter> [file...]
 ...
 ```
 
-Same with the exit code, it's just forwarded. Exception: If an error happens during yq processing the exit code 128 is returned.
+Same with the exit code, it's just forwarded. Except if an error happens during yq processing, then the exit code 128 is returned.
 
 ## Examples
 
