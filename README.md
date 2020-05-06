@@ -1,6 +1,6 @@
 # yq
 
-Another portable wrapper to jq. Written in Go and aims to be used exactly like jq, just that the input and output document is YAML. There are a [several other options](https://github.com/stedolan/jq/issues/467), but haven't found one which is a simple binary *and* is just like jq.
+Yet another portable wrapper to jq. Written in Go and aims to be used exactly like jq, just that the input and output document is YAML. There are a [several other options](https://github.com/stedolan/jq/issues/467), but haven't found one which is a simple binary *and* is just like jq.
 
 Forwards stdin (after translating to JSON) and arguments (where applicable) directly to jq. Forwards jq output (after translating to YAML) directly to stdout. jq errors are directly written to stderr.
 
