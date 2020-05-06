@@ -6,7 +6,7 @@ Forwards stdin (after translating to JSON) and arguments (where applicable) dire
 
 So, just use it as you would use jq, no gimmicks. You need to have jq installed and available within your `$PATH`.
 
-For YAML all features what [gopkg.in/yaml.v3](https://github.com/go-yaml/yaml/tree/v3#compatibility) offers are supported.
+All YAML features what [gopkg.in/yaml.v3](https://github.com/go-yaml/yaml/tree/v3#compatibility) offers are supported.
 
 ## Installation
 
